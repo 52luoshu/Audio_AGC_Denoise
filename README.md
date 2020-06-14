@@ -1,0 +1,3 @@
+基于webrtc的音频AGC与音频降噪功能模块，已将功能代码与webrtc框架解耦，直接编译可用。
+测试demo: WebRtcAudioTest.cpp
+模块目前支持的输入为PCM数据，对于流数据与格式封装需要加一层解码。处理完成的数据同样以PCM格式输出。
